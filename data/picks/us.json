@@ -1,0 +1,125 @@
+{
+  "_doc": "Real products only. A non-null price must have been seen on that product page, with price_source (the exact URL and method) and price_seen_at. Every item url must be a real product page for that exact item, not a search, category, hub or landing page. Re-add removed items from data/notes/removed-rows.json when a verified product URL exists.",
+  "country": "us",
+  "sections": [
+    {
+      "id": "ps5-ssd",
+      "title": "PS5: M.2 NVMe SSD (plays the game)",
+      "items": [
+        {
+          "name": "Samsung 990 PRO with Heatsink (1 TB)",
+          "why": "PCIe Gen4 with a built-in heatsink. Samsung markets this version for PS5.",
+          "retailer": "bestbuy",
+          "url": "https://www.bestbuy.com/product/samsung-990-pro-1tb-internal-ssd-pcie-gen-4x4-nvme-with-heatsink-for-ps5/J3ZYG28JXY",
+          "price": 379.99,
+          "last_checked": "2026-11-18T18:20:00Z",
+          "stock_note": "Best Buy product page at 18:20 GMT (box browser) showed $379.99 and Add to cart. It was sold and shipped by Adorama. Shipping was offered as FREE on Tue, Nov 24, to 04785. Pickup was Unavailable. No visible low-stock wording.",
+          "price_source": {
+            "url": "https://www.bestbuy.com/product/samsung-990-pro-1tb-internal-ssd-pcie-gen-4x4-nvme-with-heatsink-for-ps5/J3ZYG28JXY",
+            "method": "box browser"
+          },
+          "price_seen_at": "2026-11-18T18:20:00Z"
+        }
+      ],
+      "page": "storage"
+    },
+    {
+      "id": "xbox-card",
+      "title": "Xbox Series X|S: Storage Expansion Card (plays the game)",
+      "items": [
+        {
+          "name": "Seagate Storage Expansion Card for Xbox Series X|S (1 TB)",
+          "why": "Made with Microsoft for the rear expansion port. Plays Series X|S games at the same speed as the internal SSD.",
+          "retailer": "bestbuy",
+          "url": "https://www.bestbuy.com/product/seagate-1tb-storage-expansion-card-for-xbox-series-xs-nvme-ssd-black/J37C5HZ2W7",
+          "price": null,
+          "last_checked": "2026-11-18T18:21:00Z",
+          "stock_note": "Best Buy's product page at 18:21 GMT (box browser) said this item is no longer available in new condition and showed no price or Add to Cart."
+        }
+      ],
+      "page": "storage"
+    },
+    {
+      "id": "usb",
+      "title": "External USB drive (stores games, cannot play them)",
+      "items": [],
+      "page": "storage"
+    },
+    {
+      "id": "controllers",
+      "title": "Controllers",
+      "items": [
+        {
+          "name": "DualSense Wireless Controller \u2013 Grand Theft Auto VI White Limited Edition",
+          "why": "Sony's GTA 6 DualSense, with a colour-shifting finish. Out 19 November in limited numbers.",
+          "retailer": "amazon_us",
+          "url": "https://www.amazon.com/dp/B0HHNZFXL5",
+          "price": null,
+          "last_checked": "2026-11-18T18:21:00Z",
+          "stock_note": "Amazon.com /dp/ product page for the standalone White Limited Edition controller (ASIN B0HHNZFXL5) loaded at 18:21 GMT (box browser). The page said the item cannot be shipped to the selected delivery location (United Kingdom was selected), and no purchase button or price was shown. Amazon prices are only listed when they come from the Product Advertising API."
+        },
+        {
+          "name": "DualSense Wireless Controller \u2013 Grand Theft Auto VI Black Limited Edition",
+          "why": "Sony sells this one through PlayStation Direct, in limited numbers.",
+          "retailer": "ps_direct",
+          "affiliate": false,
+          "url": "https://direct.playstation.com/en-us/buy-accessories/dualsense-wireless-controller-grand-theft-auto-vi-black-limited-edition-for-ps5-pc-mac-mobile",
+          "price": 84.0,
+          "last_checked": "2026-11-18T18:21:00Z",
+          "stock_note": "PlayStation Direct US product page at 18:21 GMT (box browser) showed $84.00, a PRE-ORDER badge, Release Date: November 19, 2026, and an Add button. A session-timeout sign-in prompt was visible and was not used; the public product details were viewed without signing in. No item-specific delivery date was shown (only a general 'Free delivery on orders over $40' banner). The page said the product is limited to 1 per order due to high demand.",
+          "price_source": {
+            "url": "https://direct.playstation.com/en-us/buy-accessories/dualsense-wireless-controller-grand-theft-auto-vi-black-limited-edition-for-ps5-pc-mac-mobile",
+            "method": "box browser"
+          },
+          "price_seen_at": "2026-11-18T18:21:00Z"
+        },
+        {
+          "name": "Xbox Wireless Controller (Robot White)",
+          "why": "The official Xbox pad. Works on Series X|S, Xbox One, PC and phones.",
+          "retailer": "amazon_us",
+          "url": "https://www.amazon.com/dp/B0F1HTGDTL",
+          "price": null,
+          "last_checked": "2026-11-18T18:21:00Z",
+          "stock_note": "Amazon.com /dp/ product page for the official Xbox Wireless Gaming Controller in Robot White (ASIN B0F1HTGDTL) loaded at 18:21 GMT (box browser). The visible offer was a used unit (Used: Very Good, sold by AMAZINGG-PRIME, fulfilled by Amazon) priced in euros, with Add to cart, and delivery to the United Kingdom. No new-condition buy box was shown. The page was showing items that ship to the United Kingdom. Amazon prices are only listed when they come from the Product Advertising API."
+        },
+        {
+          "name": "Razer Wolverine V3 Pro (Xbox / PC)",
+          "why": "A licensed Xbox/PC wireless controller with back buttons and Hall-effect sticks.",
+          "retailer": "razer",
+          "url": "https://www.razer.com/console-controllers/razer-wolverine-v3-pro/RZ06-05200100-R3U1",
+          "price": 159.99,
+          "last_checked": "2026-11-18T18:22:00Z",
+          "stock_note": "Razer US product page at 18:22 GMT (box browser) for the Black Wolverine V3 Pro showed US$159.99 (US$199.99 struck through, 20% off) and ADD TO CART. Delivery options included 23-25 Nov for US$10.00 and 25-27 Nov free. Pickup stock was shown at 9 RazerStores. No visible low-stock wording.",
+          "price_source": {
+            "url": "https://www.razer.com/console-controllers/razer-wolverine-v3-pro/RZ06-05200100-R3U1",
+            "method": "box browser"
+          },
+          "price_seen_at": "2026-11-18T18:22:00Z"
+        }
+      ],
+      "page": "gear"
+    },
+    {
+      "id": "headsets",
+      "title": "Headsets",
+      "items": [
+        {
+          "name": "Xbox Wireless Headset",
+          "why": "Microsoft's official headset. Pairs directly with the console, no dongle.",
+          "retailer": "amazon_us",
+          "url": "https://www.amazon.com/Microsoft-Wireless-Bluetooth-Gaming-TLL-00001-Console/dp/B08WFD42G5",
+          "price": null,
+          "last_checked": "2026-11-18T18:22:00Z",
+          "stock_note": "Amazon.com /dp/ product page for the official Xbox Wireless Headset (ASIN B08WFD42G5) loaded at 18:22 GMT (box browser). A used offer was visible (Used: Very Good, sold by AMAZINGG-PRIME, fulfilled by Amazon, priced in euros) with Add to cart; the visible offer was to be delivered to the United Kingdom. No new-item price is listed. Amazon prices are only listed when they come from the Product Advertising API."
+        }
+      ],
+      "page": "gear"
+    },
+    {
+      "id": "chairs",
+      "title": "Gaming chair",
+      "items": [],
+      "page": "gear"
+    }
+  ]
+}

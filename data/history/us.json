@@ -1,0 +1,433 @@
+{
+  "_doc": "Daily price history for the twice-daily check routine. Append one object per retailer row each time a person checks that row. date is the calendar date in the country's timezone (YYYY-MM-DD). id is the retailer row id from data/prices/<cc>.json. price is the number seen on the retailer's own product page, or null if no price was shown. stock is one of in_stock | low | out | preorder | unknown | not_listed. in_stock/low means buyable now with a dispatch or delivery date; preorder means release-date shipping only (same rule in every country; see docs/stock.md). checked_at is ISO 8601 UTC. Never invent a price. The site shows a 30-day low only once this file has at least 7 distinct dates.",
+  "country": "us",
+  "entries": [
+    {
+      "date": "2026-11-15",
+      "id": "us-bestbuy-ps5-std",
+      "price": null,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T09:59:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-gamestop-ps5-std",
+      "price": 79.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T10:47:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-target-ps5-std",
+      "price": null,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T10:47:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-walmart-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-15T10:47:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-walmart-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-15T10:47:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-target-xbox-std",
+      "price": null,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T17:14:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-gamestop-xbox-std",
+      "price": 79.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T17:51:26Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-bestbuy-ps5-std",
+      "price": null,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T18:30:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-gamestop-ps5-std",
+      "price": 79.99,
+      "stock": "preorder",
+      "checked_at": "2026-11-15T18:30:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-gamestop-xbox-std",
+      "price": 79.99,
+      "stock": "preorder",
+      "checked_at": "2026-11-15T18:30:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-walmart-ps5-std",
+      "price": 79.99,
+      "stock": "preorder",
+      "checked_at": "2026-11-15T18:30:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-walmart-xbox-std",
+      "price": 79.99,
+      "stock": "preorder",
+      "checked_at": "2026-11-15T18:30:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-bestbuy-ps5-std",
+      "price": null,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T19:13:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-walmart-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-15T19:13:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-walmart-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-15T19:13:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-gamestop-ps5-std",
+      "price": 79.99,
+      "stock": "preorder",
+      "checked_at": "2026-11-15T19:47:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-gamestop-xbox-std",
+      "price": 79.99,
+      "stock": "preorder",
+      "checked_at": "2026-11-15T19:47:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-target-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-15T20:20:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "us-target-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-15T20:20:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-walmart-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T08:35:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-walmart-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T08:35:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-target-xbox-std",
+      "price": 79.99,
+      "stock": "low",
+      "checked_at": "2026-11-16T08:35:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-bestbuy-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T08:38:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-target-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T08:38:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-gamestop-ps5-std",
+      "price": 79.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-16T08:38:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-gamestop-xbox-std",
+      "price": 79.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-16T08:38:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-walmart-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T18:25:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-walmart-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T18:25:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-gamestop-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T18:26:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-bestbuy-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T18:31:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-target-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T18:31:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-target-xbox-std",
+      "price": 79.99,
+      "stock": "low",
+      "checked_at": "2026-11-16T18:31:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "us-gamestop-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T18:31:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-bestbuy-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T08:28:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-walmart-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T08:28:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-walmart-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T08:28:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-target-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T08:35:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-target-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T08:35:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-gamestop-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T08:35:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-gamestop-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T08:28:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-bestbuy-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T18:22:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-walmart-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T18:22:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-walmart-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T18:23:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-target-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T18:23:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-target-xbox-std",
+      "price": 79.99,
+      "stock": "low",
+      "checked_at": "2026-11-17T18:36:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-gamestop-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T18:36:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "us-gamestop-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T18:36:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-bestbuy-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T08:29:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-walmart-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T08:25:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-walmart-xbox-std",
+      "price": 79.99,
+      "stock": "low",
+      "checked_at": "2026-11-18T08:25:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-target-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T08:26:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-target-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T08:30:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-gamestop-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T08:26:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-gamestop-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T08:26:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-bestbuy-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T18:19:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-walmart-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T18:19:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-walmart-xbox-std",
+      "price": 79.99,
+      "stock": "low",
+      "checked_at": "2026-11-18T18:19:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-target-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T18:19:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-target-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T18:20:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-gamestop-ps5-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T18:20:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "us-gamestop-xbox-std",
+      "price": 79.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T18:20:00Z"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "_doc": "Daily price history for the twice-daily check routine. Append one object per retailer row each time a person checks that row. date is the calendar date in the country's timezone (YYYY-MM-DD). id is the retailer row id from data/prices/<cc>.json. price is the number seen on the retailer's own product page, or null if no price was shown. stock is one of in_stock | low | out | preorder | unknown | not_listed. in_stock/low means buyable now with a dispatch or delivery date; preorder means release-date shipping only (same rule in every country; see docs/stock.md). checked_at is ISO 8601 UTC. Never invent a price. The site shows a 30-day low only once this file has at least 7 distinct dates.",
+  "country": "uk",
+  "entries": [
+    {
+      "date": "2026-11-15",
+      "id": "uk-argos-ps5-std",
+      "price": null,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T09:59:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-argos-xbox-std",
+      "price": null,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T10:48:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-currys-ps5-std",
+      "price": null,
+      "stock": "in_stock",
+      "checked_at": "2026-11-15T17:14:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-currys-xbox-std",
+      "price": null,
+      "stock": "in_stock",
+      "checked_at": "2026-11-15T17:14:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-game-ps5-std",
+      "price": 64.99,
+      "stock": "low",
+      "checked_at": "2026-11-15T17:14:00Z",
+      "note": "No stored product-page HTML for this check, so the recorded stock was not re-parsed. Later snapshots of this product page show the low-stock wording only inside hidden banner templates."
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-argos-ps5-std",
+      "price": null,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T18:30:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-argos-xbox-std",
+      "price": null,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T18:30:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-currys-xbox-std",
+      "price": null,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T18:30:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-game-ps5-std",
+      "price": 64.99,
+      "stock": "preorder",
+      "checked_at": "2026-11-15T18:30:00Z",
+      "note": "No stored product-page HTML for this check, so the recorded stock was not re-parsed. Later snapshots of this product page show the low-stock wording only inside hidden banner templates."
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-currys-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-15T18:39:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-currys-ps5-std",
+      "price": null,
+      "stock": "in_stock",
+      "checked_at": "2026-11-15T19:13:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-game-ps5-std",
+      "price": 64.99,
+      "stock": "low",
+      "checked_at": "2026-11-15T19:13:00Z",
+      "note": "No stored product-page HTML for this check, so the recorded stock was not re-parsed. Later snapshots of this product page show the low-stock wording only inside hidden banner templates."
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-currys-xbox-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T19:44:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-argos-ps5-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T19:47:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-argos-xbox-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-15T19:47:00Z"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "uk-game-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-15T20:20:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "uk-argos-ps5-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-16T08:24:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "uk-argos-xbox-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-16T08:24:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "uk-currys-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T08:24:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "uk-currys-xbox-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-16T08:24:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "uk-game-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T08:28:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "uk-argos-ps5-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-16T18:22:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "uk-argos-xbox-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-16T18:22:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "uk-currys-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T18:22:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "uk-currys-xbox-std",
+      "price": 64.99,
+      "stock": "out",
+      "checked_at": "2026-11-16T18:23:00Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "uk-game-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-16T18:31:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "uk-game-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T08:20:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "uk-argos-ps5-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-17T08:16:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "uk-argos-xbox-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-17T08:16:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "uk-currys-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T08:17:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "uk-currys-xbox-std",
+      "price": 64.99,
+      "stock": "out",
+      "checked_at": "2026-11-17T08:17:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "uk-game-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T18:36:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "uk-argos-ps5-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-17T18:15:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "uk-argos-xbox-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-17T18:15:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "uk-currys-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-17T18:16:00Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "uk-currys-xbox-std",
+      "price": 64.99,
+      "stock": "out",
+      "checked_at": "2026-11-17T18:16:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "uk-game-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T08:22:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "uk-argos-ps5-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-18T08:21:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "uk-argos-xbox-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-18T08:21:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "uk-currys-xbox-std",
+      "price": 64.99,
+      "stock": "out",
+      "checked_at": "2026-11-18T08:21:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "uk-game-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T18:22:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "uk-argos-ps5-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-18T18:15:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "uk-argos-xbox-std",
+      "price": 64.99,
+      "stock": "unknown",
+      "checked_at": "2026-11-18T18:15:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "uk-currys-ps5-std",
+      "price": 64.99,
+      "stock": "in_stock",
+      "checked_at": "2026-11-18T18:15:00Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "uk-currys-xbox-std",
+      "price": 64.99,
+      "stock": "out",
+      "checked_at": "2026-11-18T18:16:00Z"
+    }
+  ]
+}

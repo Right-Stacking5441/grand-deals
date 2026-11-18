@@ -1,0 +1,155 @@
+{
+  "_doc": "US tracker rows. Same rules as uk.json. Never type a price you have not seen on the retailer's own page.",
+  "country": "us",
+  "currency": "USD",
+  "updated": "2026-11-18T18:20:00Z",
+  "reference": [
+    {
+      "label": "Standard Edition MSRP",
+      "price": 79.99,
+      "source": "Take-Two / Rockstar press release, 24 Jun 2026",
+      "checked": "2026-11-15"
+    },
+    {
+      "label": "Ultimate Edition (digital only)",
+      "price": 99.99,
+      "source": "Take-Two / Rockstar press release, 24 Jun 2026",
+      "checked": "2026-11-15"
+    }
+  ],
+  "rows": [
+    {
+      "id": "us-bestbuy-ps5-std",
+      "retailer": "bestbuy",
+      "product": "Grand Theft Auto VI",
+      "edition": "Standard",
+      "platform": "PS5",
+      "format": "Code in box (no disc)",
+      "kind": "game",
+      "price": 79.99,
+      "stock": "in_stock",
+      "stock_note": "Product page at 18:19 GMT (box browser): Grand Theft Auto VI - (Code in Box, Playable 11/19/26) - PlayStation 5, $79.99, Add to Cart. After fulfillment options finished loading: Pickup was offered as FREE Today at Bangor, ready in 1 hour. Shipping was offered as FREE Tomorrow. No visible low-stock wording. The product id is unchanged (JXHY5RW2JZ).",
+      "url": "https://www.bestbuy.com/product/grand-theft-auto-vi-code-in-box-playable-11-19-26-playstation-5/JXHY5RW2JZ",
+      "last_checked": "2026-11-18T18:19:00Z",
+      "price_source": {
+        "url": "https://www.bestbuy.com/product/grand-theft-auto-vi-code-in-box-playable-11-19-26-playstation-5/JXHY5RW2JZ",
+        "method": "box browser"
+      },
+      "price_seen_at": "2026-11-18T18:19:00Z"
+    },
+    {
+      "id": "us-walmart-ps5-std",
+      "retailer": "walmart",
+      "product": "Grand Theft Auto VI",
+      "edition": "Standard",
+      "platform": "PS5",
+      "format": "Code in box (no disc)",
+      "kind": "game",
+      "price": 79.99,
+      "stock": "in_stock",
+      "stock_note": "Product page at 18:19 GMT (box browser): $79.99, Add to cart. Shipping arrives today (order within 4 hr 10 min, free). Pickup showed 'Check nearby'. The local Delivery option showed 'Out of stock', but shipping was still offered as arriving today, so the item remains buyable. Header location Sacramento, 95829 (Sacramento Supercenter), already set. Code in box, playable 11/19/26. No visible low-stock wording.",
+      "url": "https://www.walmart.com/ip/Grand-Theft-Auto-VI-PlayStation-5-Game-Code-in-Box-Delivers-11-12-26-Playable-11-19-26/20482917228",
+      "last_checked": "2026-11-18T18:19:00Z",
+      "price_source": {
+        "url": "https://www.walmart.com/ip/Grand-Theft-Auto-VI-PlayStation-5-Game-Code-in-Box-Delivers-11-12-26-Playable-11-19-26/20482917228",
+        "method": "box browser"
+      },
+      "price_seen_at": "2026-11-18T18:19:00Z"
+    },
+    {
+      "id": "us-walmart-xbox-std",
+      "retailer": "walmart",
+      "product": "Grand Theft Auto VI",
+      "edition": "Standard",
+      "platform": "Xbox Series X|S",
+      "format": "Code in box (no disc)",
+      "kind": "game",
+      "price": 79.99,
+      "stock": "low",
+      "stock_note": "Product page at 18:19 GMT (box browser): $79.99, Add to cart. Shipping arrives by Wed, Nov 25 (free). Pickup showed 'Check nearby'. The local Delivery option showed 'Out of stock', but shipping was still offered, so the item remains buyable. A red 'Low stock' label was visible. Header location Sacramento, 95829 (Sacramento Supercenter), already set. Xbox Series X/S code in box, playable 11/19/26.",
+      "url": "https://www.walmart.com/ip/Grand-Theft-Auto-VI-Xbox-Series-X-S-Game-Code-In-Box-Delivers-11-12-26-Playable-11-19-26/20459958275",
+      "last_checked": "2026-11-18T18:19:00Z",
+      "price_source": {
+        "url": "https://www.walmart.com/ip/Grand-Theft-Auto-VI-Xbox-Series-X-S-Game-Code-In-Box-Delivers-11-12-26-Playable-11-19-26/20459958275",
+        "method": "box browser"
+      },
+      "price_seen_at": "2026-11-18T18:19:00Z"
+    },
+    {
+      "id": "us-target-ps5-std",
+      "retailer": "target",
+      "product": "Grand Theft Auto VI",
+      "edition": "Standard",
+      "platform": "PS5",
+      "format": "Code in box (no disc)",
+      "kind": "game",
+      "price": 79.99,
+      "stock": "in_stock",
+      "url": "https://www.target.com/p/grand-theft-auto-vi-playstation-5/-/A-1011529119",
+      "last_checked": "2026-11-18T18:19:00Z",
+      "stock_note": "Product page at 18:19 GMT (box browser): Grand Theft Auto VI - PlayStation 5 (Code in Box, Playable 11/19/26), $79.99, Add to cart. Pickup ready within 2 hours at Cedar Rapids South (Always free); same-day delivery as soon as 2pm CST today; shipping arrives by Sat, Nov 21. Location already set to ship to 52404. No visible low-stock wording.",
+      "price_seen_at": "2026-11-18T18:19:00Z",
+      "price_source": {
+        "url": "https://www.target.com/p/grand-theft-auto-vi-playstation-5/-/A-1011529119",
+        "method": "box browser"
+      }
+    },
+    {
+      "id": "us-target-xbox-std",
+      "retailer": "target",
+      "product": "Grand Theft Auto VI",
+      "edition": "Standard",
+      "platform": "Xbox Series X|S",
+      "format": "Code in box (no disc)",
+      "kind": "game",
+      "price": 79.99,
+      "stock": "in_stock",
+      "url": "https://www.target.com/p/grand-theft-auto-vi-xbox-series-x-s/-/A-1011545811",
+      "last_checked": "2026-11-18T18:20:00Z",
+      "stock_note": "Product page at 18:20 GMT (box browser): Grand Theft Auto VI - Xbox Series X|S (Code in Box, Playable 11/19/26), $79.99. The page opened with the Shipping option already selected (ship to 52404, already set) and showed 'Arrives by Sat, Nov 21', 'Ships free - exclusions apply', and Add to cart, so the item is buyable by shipping. Pickup showed 'Not available'. Delivery showed 'Check availability'. No visible low-stock wording.",
+      "price_seen_at": "2026-11-18T18:20:00Z",
+      "price_source": {
+        "url": "https://www.target.com/p/grand-theft-auto-vi-xbox-series-x-s/-/A-1011545811",
+        "method": "box browser"
+      }
+    },
+    {
+      "id": "us-gamestop-ps5-std",
+      "retailer": "gamestop",
+      "product": "Grand Theft Auto VI",
+      "edition": "Standard",
+      "platform": "PS5",
+      "format": "Code in box (no disc)",
+      "kind": "game",
+      "price": 79.99,
+      "stock": "in_stock",
+      "url": "https://www.gamestop.com/video-games/playstation-5/products/grand-theft-auto-vi---playstation-5/20036131-680826cd.html",
+      "last_checked": "2026-11-18T18:20:00Z",
+      "stock_note": "Product page at 18:20 GMT (box browser): Grand Theft Auto VI - PlayStation 5 (Code in Box), $79.99 (New), Add to Cart. Pick up in-store and Same Day Delivery were not available. Ship to Home was offered as 2-3 business days ($7.99, free for Pros on $54+). No visible low-stock wording.",
+      "price_source": {
+        "url": "https://www.gamestop.com/video-games/playstation-5/products/grand-theft-auto-vi---playstation-5/20036131-680826cd.html",
+        "method": "box browser"
+      },
+      "price_seen_at": "2026-11-18T18:20:00Z"
+    },
+    {
+      "id": "us-gamestop-xbox-std",
+      "retailer": "gamestop",
+      "product": "Grand Theft Auto VI",
+      "edition": "Standard",
+      "platform": "Xbox Series X|S",
+      "format": "Code in box (no disc)",
+      "kind": "game",
+      "price": 79.99,
+      "stock": "in_stock",
+      "url": "https://www.gamestop.com/video-games/xbox-series-x%7Cs/products/grand-theft-auto-vi---xbox-series-x/20036131-3f0862c8.html",
+      "last_checked": "2026-11-18T18:20:00Z",
+      "stock_note": "Product page at 18:20 GMT (box browser): Grand Theft Auto VI - Xbox Series X/S (Code in Box), $79.99 (New), Add to Cart. Pick up in-store and Same Day Delivery were not available. Ship to Home was offered as 2-3 business days ($7.99, free for Pros on $54+). No visible low-stock wording.",
+      "price_source": {
+        "url": "https://www.gamestop.com/video-games/xbox-series-x%7Cs/products/grand-theft-auto-vi---xbox-series-x/20036131-3f0862c8.html",
+        "method": "box browser"
+      },
+      "price_seen_at": "2026-11-18T18:20:00Z"
+    }
+  ]
+}

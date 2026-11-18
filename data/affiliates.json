@@ -1,0 +1,25 @@
+{
+  "_doc": "Affiliate config keyed by country, then retailer key. While live=false, links go to the retailer's own page with NO tracking (safe placeholder). To go live: fill the TODO values, set live=true, run build.py (pages also re-resolve links at runtime). mode: 'query' appends param=value to the product URL; 'wrap' fills {url} / {url_enc} in template (Awin, Partnerize, Impact, Geniuslink). geo_route notes how cross-country clicks get localised. No grey-market key sellers (Eneba, Loaded, CDKeys, G2A, Kinguin) may ever be added.",
+  "blocked_retailers": ["eneba", "loaded", "cdkeys", "g2a", "kinguin", "instant_gaming"],
+  "uk": {
+    "amazon_uk":      {"name": "Amazon UK", "home": "https://www.amazon.co.uk/", "network": "Amazon Associates UK", "live": false, "mode": "query", "param": "tag", "value": "TODO-ukassoc-21", "geo_route": "Amazon OneLink (links US visitors to the amazon.com equivalent)", "price_display": "Do not show Amazon prices unless pulled from the Product Advertising API (Associates rule). Show 'Check price'."},
+    "currys_awin":    {"name": "Currys", "home": "https://www.currys.co.uk/", "network": "Awin (Currys, 3% editorial per brief)", "live": false, "mode": "wrap", "template": "https://www.awin1.com/cread.php?awinmid=TODO_MID&awinaffid=TODO_AFFID&ued={url_enc}", "geo_route": "Geniuslink key: TODO-uk-currys"},
+    "game_partnerize":{"name": "GAME", "home": "https://www.game.co.uk/", "network": "Partnerize", "live": false, "mode": "wrap", "template": "https://prf.hn/click/camref:TODO_CAMREF/destination:{url_enc}", "geo_route": "Geniuslink key: TODO-uk-game"},
+    "argos":          {"name": "Argos", "home": "https://www.argos.co.uk/", "network": "TODO: confirm network (Argos runs its programme via Awin at time of writing - verify)", "live": false, "mode": "wrap", "template": "https://www.awin1.com/cread.php?awinmid=TODO_MID&awinaffid=TODO_AFFID&ued={url_enc}", "geo_route": "Geniuslink key: TODO-uk-argos"},
+    "scan_awin":      {"name": "Scan", "home": "https://www.scan.co.uk/", "network": "Awin", "live": false, "mode": "wrap", "template": "https://www.awin1.com/cread.php?awinmid=TODO_MID&awinaffid=TODO_AFFID&ued={url_enc}", "geo_route": "Geniuslink key: TODO-uk-scan"},
+    "secretlab":      {"name": "Secretlab", "home": "https://secretlab.co/", "network": "Secretlab affiliate (up to 12% per brief)", "live": false, "mode": "query", "param": "ref", "value": "TODO", "geo_route": "Secretlab geo-redirects by region itself"},
+    "razer":          {"name": "Razer", "home": "https://www.razer.com/gb-en", "network": "Razer affiliate (up to 15% per brief)", "live": false, "mode": "query", "param": "ref", "value": "TODO", "geo_route": "Geniuslink key: TODO-razer"}
+  },
+  "us": {
+    "amazon_us":  {"name": "Amazon", "home": "https://www.amazon.com/", "network": "Amazon Associates US", "live": false, "mode": "query", "param": "tag", "value": "TODO-usassoc-20", "geo_route": "Amazon OneLink (UK tag linked)", "price_display": "Do not show Amazon prices unless pulled from the Product Advertising API (Associates rule). Show 'Check price'."},
+    "bestbuy":    {"name": "Best Buy", "home": "https://www.bestbuy.com/", "network": "TODO: Best Buy affiliate programme (verify network, likely Impact)", "live": false, "mode": "wrap", "template": "TODO_IMPACT_LINK?u={url_enc}", "geo_route": "Geniuslink key: TODO-us-bestbuy"},
+    "walmart":    {"name": "Walmart", "home": "https://www.walmart.com/", "network": "TODO: Walmart Creator/affiliate (verify network, likely Impact)", "live": false, "mode": "wrap", "template": "TODO_IMPACT_LINK?u={url_enc}", "geo_route": "Geniuslink key: TODO-us-walmart"},
+    "target":     {"name": "Target", "home": "https://www.target.com/", "network": "TODO: Target Partners (verify network, likely Impact)", "live": false, "mode": "wrap", "template": "TODO_IMPACT_LINK?u={url_enc}", "geo_route": "Geniuslink key: TODO-us-target"},
+    "gamestop":   {"name": "GameStop", "home": "https://www.gamestop.com/", "network": "TODO: GameStop affiliate (verify network)", "live": false, "mode": "wrap", "template": "TODO_LINK?u={url_enc}", "geo_route": "Geniuslink key: TODO-us-gamestop"},
+    "secretlab":  {"name": "Secretlab", "home": "https://secretlab.co/", "network": "Secretlab affiliate", "live": false, "mode": "query", "param": "ref", "value": "TODO", "geo_route": "Secretlab geo-redirects by region itself"},
+    "razer":      {"name": "Razer", "home": "https://www.razer.com/", "network": "Razer affiliate", "live": false, "mode": "query", "param": "ref", "value": "TODO", "geo_route": "Geniuslink key: TODO-razer"}
+  },
+  "ca": {"_stub": true},
+  "au": {"_stub": true},
+  "de": {"_stub": true}
+}

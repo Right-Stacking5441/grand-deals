@@ -1,0 +1,8 @@
+{
+  "_doc": "Stub. Fill rows and set enabled:true in countries.json to launch.",
+  "country": "de",
+  "currency": "EUR",
+  "updated": null,
+  "reference": [],
+  "rows": []
+}

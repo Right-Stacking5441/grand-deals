@@ -1,0 +1,754 @@
+{
+  "_doc": "Rows removed from live prices/picks because they did not link to a real product page for that exact item. A retailer row may only be re-added when a verified product URL exists (Amazon: a specific ASIN /dp/ page). A real product page that simply shows no price can be kept as 'price not confirmed'.",
+  "removed_at": "2026-11-15T17:37:56Z",
+  "count": 48,
+  "rows": [
+    {
+      "source": "data/prices/uk.json",
+      "id": "uk-game-xbox-std",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "GAME GTA 6 hub page (/games/grand-theft-auto-vi-gta-6), not an Xbox product page. The previous Xbox PDP returned 404. [GAME hub or category page (/games/)]",
+      "row": {
+        "id": "uk-game-xbox-std",
+        "retailer": "game_partnerize",
+        "product": "Grand Theft Auto VI",
+        "edition": "Standard",
+        "platform": "Xbox Series X|S",
+        "format": "Code in box (no disc)",
+        "kind": "game",
+        "price": null,
+        "stock": "unknown",
+        "url": "https://www.game.co.uk/games/grand-theft-auto-vi-gta-6",
+        "last_checked": "2026-11-15T17:14:00Z",
+        "stock_note": "The previous product URL https://www.game.co.uk/rockstar-games-grand-theft-auto-vi-xbs-400064 returned 404. GAME's GTA 6 hub (this link) loaded but only listed the PS5 edition, so we have not confirmed an Xbox price or stock."
+      }
+    },
+    {
+      "source": "data/prices/uk.json",
+      "id": "uk-amazon-ps5-std",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon search page (/s?k=), not a /dp/ product page. [Amazon URL is not a /dp/ or /gp/product/ product page]",
+      "row": {
+        "id": "uk-amazon-ps5-std",
+        "retailer": "amazon_uk",
+        "product": "Grand Theft Auto VI",
+        "edition": "Standard",
+        "platform": "PS5",
+        "format": "Code in box (no disc)",
+        "kind": "game",
+        "price": null,
+        "stock": "unknown",
+        "stock_note": "Amazon prices only via the Product Advertising API",
+        "url": "https://www.amazon.co.uk/s?k=grand+theft+auto+vi+ps5",
+        "last_checked": null
+      }
+    },
+    {
+      "source": "data/prices/uk.json",
+      "id": "uk-amazon-xbox-std",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon search page (/s?k=), not a /dp/ product page. [Amazon URL is not a /dp/ or /gp/product/ product page]",
+      "row": {
+        "id": "uk-amazon-xbox-std",
+        "retailer": "amazon_uk",
+        "product": "Grand Theft Auto VI",
+        "edition": "Standard",
+        "platform": "Xbox Series X|S",
+        "format": "Code in box (no disc)",
+        "kind": "game",
+        "price": null,
+        "stock": "unknown",
+        "url": "https://www.amazon.co.uk/s?k=grand+theft+auto+vi+xbox",
+        "last_checked": null
+      }
+    },
+    {
+      "source": "data/prices/uk.json",
+      "id": "uk-scan-game",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Scan homepage, not a product page for GTA 6. Search also showed no results. [homepage or locale landing page]",
+      "row": {
+        "id": "uk-scan-game",
+        "retailer": "scan_awin",
+        "product": "Grand Theft Auto VI",
+        "edition": "Standard",
+        "platform": "PS5 and Xbox",
+        "format": "",
+        "kind": "game",
+        "price": null,
+        "stock": "not_listed",
+        "stock_note": "Scan's search shows no results for the game. We list Scan for storage instead",
+        "url": "https://www.scan.co.uk/",
+        "last_checked": "2026-11-15T09:58:00Z"
+      }
+    },
+    {
+      "source": "data/prices/uk.json",
+      "id": "uk-currys-ps5-bundle",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Currys GTA VI range/category page, not a product page for the £579 bundle. [Currys category or range page, not a /products/ product page]",
+      "row": {
+        "id": "uk-currys-ps5-bundle",
+        "retailer": "currys_awin",
+        "product": "PlayStation 5 Digital Edition & Grand Theft Auto VI bundle",
+        "edition": "Standard",
+        "platform": "PS5",
+        "format": "Retailer bundle",
+        "kind": "bundle",
+        "price": 579.0,
+        "stock": "preorder",
+        "stock_note": "Currys' GTA VI range page listed 'SONY PlayStation 5 Digital Edition & Grand Theft Auto VI Bundle' at £579.00, 'Collect from Tue 17 Nov'.",
+        "url": "https://www.currys.co.uk/grand-theft-auto-vi/gta-vi",
+        "last_checked": "2026-11-15T17:14:00Z"
+      }
+    },
+    {
+      "source": "data/prices/uk.json",
+      "id": "uk-argos-ps5-console",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Argos search page for 'ps5 console', not a product page. [search or results page]",
+      "row": {
+        "id": "uk-argos-ps5-console",
+        "retailer": "argos",
+        "product": "PS5 console + game (buy separately)",
+        "edition": "-",
+        "platform": "PS5",
+        "format": "No official Sony/Microsoft bundle",
+        "kind": "bundle",
+        "price": null,
+        "stock": "unknown",
+        "url": "https://www.argos.co.uk/search/ps5-console/",
+        "last_checked": null
+      }
+    },
+    {
+      "source": "data/prices/uk.json",
+      "id": "uk-amazon-xbox-console",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon search page (/s?k=), not a /dp/ product page. [Amazon URL is not a /dp/ or /gp/product/ product page]",
+      "row": {
+        "id": "uk-amazon-xbox-console",
+        "retailer": "amazon_uk",
+        "product": "Xbox Series X|S console + game (buy separately)",
+        "edition": "-",
+        "platform": "Xbox Series X|S",
+        "format": "No official Sony/Microsoft bundle",
+        "kind": "bundle",
+        "price": null,
+        "stock": "unknown",
+        "url": "https://www.amazon.co.uk/s?k=xbox+series+x",
+        "last_checked": null
+      }
+    },
+    {
+      "source": "data/prices/us.json",
+      "id": "us-amazon-ps5-std",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon search page (/s?k=), not a /dp/ product page. [Amazon URL is not a /dp/ or /gp/product/ product page]",
+      "row": {
+        "id": "us-amazon-ps5-std",
+        "retailer": "amazon_us",
+        "product": "Grand Theft Auto VI",
+        "edition": "Standard",
+        "platform": "PS5",
+        "format": "Code in box (no disc)",
+        "kind": "game",
+        "price": null,
+        "stock": "unknown",
+        "stock_note": "Amazon prices only via the Product Advertising API",
+        "url": "https://www.amazon.com/s?k=grand+theft+auto+vi+ps5",
+        "last_checked": null
+      }
+    },
+    {
+      "source": "data/prices/us.json",
+      "id": "us-amazon-xbox-std",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon search page (/s?k=), not a /dp/ product page. [Amazon URL is not a /dp/ or /gp/product/ product page]",
+      "row": {
+        "id": "us-amazon-xbox-std",
+        "retailer": "amazon_us",
+        "product": "Grand Theft Auto VI",
+        "edition": "Standard",
+        "platform": "Xbox Series X|S",
+        "format": "Code in box (no disc)",
+        "kind": "game",
+        "price": null,
+        "stock": "unknown",
+        "url": "https://www.amazon.com/s?k=grand+theft+auto+vi+xbox",
+        "last_checked": null
+      }
+    },
+    {
+      "source": "data/prices/us.json",
+      "id": "us-bestbuy-xbox-std",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Best Buy search page (searchpage.jsp), not a product page. [search or results page]",
+      "row": {
+        "id": "us-bestbuy-xbox-std",
+        "retailer": "bestbuy",
+        "product": "Grand Theft Auto VI",
+        "edition": "Standard",
+        "platform": "Xbox Series X|S",
+        "format": "Code in box (no disc)",
+        "kind": "game",
+        "price": null,
+        "stock": "unknown",
+        "url": "https://www.bestbuy.com/site/searchpage.jsp?st=grand+theft+auto+vi",
+        "last_checked": null
+      }
+    },
+    {
+      "source": "data/prices/us.json",
+      "id": "us-bestbuy-ps5-console",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Best Buy search page (searchpage.jsp), not a product page. [search or results page]",
+      "row": {
+        "id": "us-bestbuy-ps5-console",
+        "retailer": "bestbuy",
+        "product": "PS5 console + game (buy separately)",
+        "edition": "-",
+        "platform": "PS5",
+        "format": "No official Sony/Microsoft bundle",
+        "kind": "bundle",
+        "price": null,
+        "stock": "unknown",
+        "url": "https://www.bestbuy.com/site/searchpage.jsp?st=ps5+console",
+        "last_checked": null
+      }
+    },
+    {
+      "source": "data/prices/us.json",
+      "id": "us-walmart-xbox-console",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Walmart search page (/search?q=), not a product page. [search or results page]",
+      "row": {
+        "id": "us-walmart-xbox-console",
+        "retailer": "walmart",
+        "product": "Xbox Series X|S console + game (buy separately)",
+        "edition": "-",
+        "platform": "Xbox Series X|S",
+        "format": "No official Sony/Microsoft bundle",
+        "kind": "bundle",
+        "price": null,
+        "stock": "unknown",
+        "url": "https://www.walmart.com/search?q=xbox+series+x",
+        "last_checked": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "ps5-ssd",
+      "id": "WD_BLACK SN850X with heatsink (1 TB or 2 TB)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "search or results page",
+      "row": {
+        "name": "WD_BLACK SN850X with heatsink (1 TB or 2 TB)",
+        "why": "PCIe Gen4, around 7,000 MB/s, heatsink already fitted and slim enough for the PS5 slot.",
+        "retailer": "scan_awin",
+        "url": "https://www.scan.co.uk/search?q=WD_BLACK+SN850X+heatsink",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "ps5-ssd",
+      "id": "Samsung 990 PRO with Heatsink (1 TB, 2 TB or 4 TB)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Samsung 990 PRO with Heatsink (1 TB, 2 TB or 4 TB)",
+        "why": "PCIe Gen4 with a built-in heatsink. Samsung markets this version for PS5.",
+        "retailer": "amazon_uk",
+        "url": "https://www.amazon.co.uk/s?k=Samsung+990+PRO+with+heatsink",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "ps5-ssd",
+      "id": "Crucial T500 with heatsink (1 TB or 2 TB)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Crucial T500 with heatsink (1 TB or 2 TB)",
+        "why": "PCIe Gen4 option that is often cheaper per TB. Check the heatsink version, not the bare drive.",
+        "retailer": "amazon_uk",
+        "url": "https://www.amazon.co.uk/s?k=Crucial+T500+heatsink",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "xbox-card",
+      "id": "Seagate Storage Expansion Card for Xbox Series X|S (1 TB / 2 TB)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Seagate Storage Expansion Card for Xbox Series X|S (1 TB / 2 TB)",
+        "why": "Made with Microsoft for the rear expansion port. Plays Series X|S games at the same speed as the internal SSD.",
+        "retailer": "amazon_uk",
+        "url": "https://www.amazon.co.uk/s?k=Seagate+Storage+Expansion+Card+Xbox+Series+X+S",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "xbox-card",
+      "id": "WD_BLACK C50 Storage Expansion Card for Xbox (1 TB / 2 TB)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "WD_BLACK C50 Storage Expansion Card for Xbox (1 TB / 2 TB)",
+        "why": "Licensed by Xbox. An alternative to the Seagate card. Plugs into the same port and works the same way.",
+        "retailer": "amazon_uk",
+        "url": "https://www.amazon.co.uk/s?k=WD_BLACK+C50+expansion+card+Xbox",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "usb",
+      "id": "Samsung T7 Portable SSD (1 TB / 2 TB)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Samsung T7 Portable SSD (1 TB / 2 TB)",
+        "why": "Small and quick for moving older games off the internal drive to make room. PS5 and Series X|S games must be copied back before you can play them.",
+        "retailer": "amazon_uk",
+        "url": "https://www.amazon.co.uk/s?k=Samsung+T7+portable+SSD",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "usb",
+      "id": "WD_BLACK P10 Game Drive (2 TB+)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "WD_BLACK P10 Game Drive (2 TB+)",
+        "why": "A cheap hard drive with lots of space for an archive of games. Slower to copy back than an SSD.",
+        "retailer": "amazon_uk",
+        "url": "https://www.amazon.co.uk/s?k=WD_BLACK+P10+game+drive",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "usb",
+      "id": "Seagate Game Drive for PlayStation / for Xbox",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Seagate Game Drive for PlayStation / for Xbox",
+        "why": "Branded USB drives built for console archiving. Same rule applies: store games on them, play from internal storage.",
+        "retailer": "amazon_uk",
+        "url": "https://www.amazon.co.uk/s?k=Seagate+Game+Drive",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "controllers",
+      "id": "DualSense Wireless Controller – Grand Theft Auto VI White Limited Edition",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "DualSense Wireless Controller – Grand Theft Auto VI White Limited Edition",
+        "why": "Sony's GTA 6 DualSense, with a colour-shifting finish. Out 19 November in limited numbers at PlayStation Direct and participating retailers.",
+        "retailer": "amazon_uk",
+        "url": "https://www.amazon.co.uk/s?k=DualSense+Grand+Theft+Auto+VI+limited+edition",
+        "price": 74.99,
+        "price_label": "Sony RRP",
+        "price_source": "PlayStation.Blog, 3 Sep 2026"
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "controllers",
+      "id": "DualSense Wireless Controller – Grand Theft Auto VI Black Limited Edition",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "homepage or locale landing page",
+      "row": {
+        "name": "DualSense Wireless Controller – Grand Theft Auto VI Black Limited Edition",
+        "why": "Sony sells this one only through PlayStation Direct in the UK, in limited numbers. Other shops won't have it new, so be careful of resellers.",
+        "retailer": "ps_direct",
+        "affiliate": false,
+        "url": "https://direct.playstation.com/en-gb/",
+        "price": 74.99,
+        "price_label": "Sony RRP",
+        "price_source": "PlayStation.Blog, 3 Sep 2026"
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "controllers",
+      "id": "DualSense Edge (PS5)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "DualSense Edge (PS5)",
+        "why": "Sony's pro pad, with back buttons and swappable stick modules.",
+        "retailer": "amazon_uk",
+        "url": "https://www.amazon.co.uk/s?k=DualSense+Edge",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "controllers",
+      "id": "Razer Wolverine V3 Pro (Xbox / PC)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "homepage or locale landing page",
+      "row": {
+        "name": "Razer Wolverine V3 Pro (Xbox / PC)",
+        "why": "Wireless Xbox pad with extra remappable buttons and trigger stops.",
+        "retailer": "razer",
+        "url": "https://www.razer.com/gb-en",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "controllers",
+      "id": "Xbox Wireless Controller",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Xbox Wireless Controller",
+        "why": "The standard pad, and the safe default if you just need a second controller.",
+        "retailer": "amazon_uk",
+        "url": "https://www.amazon.co.uk/s?k=Xbox+Wireless+Controller",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "headsets",
+      "id": "Sony PULSE Elite wireless headset",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Sony PULSE Elite wireless headset",
+        "why": "Sony's own headset, tuned for PS5 Tempest 3D Audio.",
+        "retailer": "amazon_uk",
+        "url": "https://www.amazon.co.uk/s?k=PULSE+Elite+wireless+headset",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "headsets",
+      "id": "Razer BlackShark V2 Pro (PlayStation or Xbox version)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "homepage or locale landing page",
+      "row": {
+        "name": "Razer BlackShark V2 Pro (PlayStation or Xbox version)",
+        "why": "Light wireless headset. Buy the version that matches your console.",
+        "retailer": "razer",
+        "url": "https://www.razer.com/gb-en",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "headsets",
+      "id": "Xbox Wireless Headset",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Xbox Wireless Headset",
+        "why": "Connects straight to Series X|S without a dongle.",
+        "retailer": "amazon_uk",
+        "url": "https://www.amazon.co.uk/s?k=Xbox+Wireless+Headset",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "chairs",
+      "id": "Secretlab TITAN Evo",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "homepage or locale landing page",
+      "row": {
+        "name": "Secretlab TITAN Evo",
+        "why": "Comes in three sizes, with adjustable lumbar support. Choose the size from your height and weight.",
+        "retailer": "secretlab",
+        "url": "https://secretlab.co/",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/uk.json",
+      "section": "chairs",
+      "id": "Razer Iskur V2",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "homepage or locale landing page",
+      "row": {
+        "name": "Razer Iskur V2",
+        "why": "Adjustable lumbar support, for people who sit for long sessions.",
+        "retailer": "razer",
+        "url": "https://www.razer.com/gb-en",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "ps5-ssd",
+      "id": "WD_BLACK SN850X with heatsink (1 TB or 2 TB)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "search or results page",
+      "row": {
+        "name": "WD_BLACK SN850X with heatsink (1 TB or 2 TB)",
+        "why": "PCIe Gen4, around 7,000 MB/s, heatsink already fitted and slim enough for the PS5 slot.",
+        "retailer": "bestbuy",
+        "url": "https://www.bestbuy.com/site/searchpage.jsp?st=WD_BLACK+SN850X+heatsink",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "ps5-ssd",
+      "id": "Samsung 990 PRO with Heatsink (1 TB, 2 TB or 4 TB)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Samsung 990 PRO with Heatsink (1 TB, 2 TB or 4 TB)",
+        "why": "PCIe Gen4 with a built-in heatsink. Samsung markets this version for PS5.",
+        "retailer": "amazon_us",
+        "url": "https://www.amazon.com/s?k=Samsung+990+PRO+with+heatsink",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "ps5-ssd",
+      "id": "Crucial T500 with heatsink (1 TB or 2 TB)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Crucial T500 with heatsink (1 TB or 2 TB)",
+        "why": "PCIe Gen4 option that is often cheaper per TB. Check the heatsink version, not the bare drive.",
+        "retailer": "amazon_us",
+        "url": "https://www.amazon.com/s?k=Crucial+T500+heatsink",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "xbox-card",
+      "id": "Seagate Storage Expansion Card for Xbox Series X|S (1 TB / 2 TB)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Seagate Storage Expansion Card for Xbox Series X|S (1 TB / 2 TB)",
+        "why": "Made with Microsoft for the rear expansion port. Plays Series X|S games at the same speed as the internal SSD.",
+        "retailer": "amazon_us",
+        "url": "https://www.amazon.com/s?k=Seagate+Storage+Expansion+Card+Xbox+Series+X+S",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "xbox-card",
+      "id": "WD_BLACK C50 Storage Expansion Card for Xbox (1 TB / 2 TB)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "search or results page",
+      "row": {
+        "name": "WD_BLACK C50 Storage Expansion Card for Xbox (1 TB / 2 TB)",
+        "why": "Licensed by Xbox. An alternative to the Seagate card. Plugs into the same port and works the same way.",
+        "retailer": "bestbuy",
+        "url": "https://www.bestbuy.com/site/searchpage.jsp?st=WD_BLACK+C50+expansion+card",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "usb",
+      "id": "Samsung T7 Portable SSD (1 TB / 2 TB)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Samsung T7 Portable SSD (1 TB / 2 TB)",
+        "why": "Small and quick for moving older games off the internal drive to make room. PS5 and Series X|S games must be copied back before you can play them.",
+        "retailer": "amazon_us",
+        "url": "https://www.amazon.com/s?k=Samsung+T7+portable+SSD",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "usb",
+      "id": "WD_BLACK P10 Game Drive (2 TB+)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "WD_BLACK P10 Game Drive (2 TB+)",
+        "why": "A cheap hard drive with lots of space for an archive of games. Slower to copy back than an SSD.",
+        "retailer": "amazon_us",
+        "url": "https://www.amazon.com/s?k=WD_BLACK+P10+game+drive",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "usb",
+      "id": "Seagate Game Drive for PlayStation / for Xbox",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Seagate Game Drive for PlayStation / for Xbox",
+        "why": "Branded USB drives built for console archiving. Same rule applies: store games on them, play from internal storage.",
+        "retailer": "amazon_us",
+        "url": "https://www.amazon.com/s?k=Seagate+Game+Drive",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "controllers",
+      "id": "DualSense Wireless Controller – Grand Theft Auto VI White Limited Edition",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "DualSense Wireless Controller – Grand Theft Auto VI White Limited Edition",
+        "why": "Sony's GTA 6 DualSense, with a color-shifting finish. Out November 19 in limited numbers at PlayStation Direct and participating retailers.",
+        "retailer": "amazon_us",
+        "url": "https://www.amazon.com/s?k=DualSense+Grand+Theft+Auto+VI+limited+edition",
+        "price": 84.99,
+        "price_label": "Sony MSRP",
+        "price_source": "PlayStation.Blog, 3 Sep 2026"
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "controllers",
+      "id": "DualSense Wireless Controller – Grand Theft Auto VI Black Limited Edition",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "homepage or locale landing page",
+      "row": {
+        "name": "DualSense Wireless Controller – Grand Theft Auto VI Black Limited Edition",
+        "why": "Sony sells this one only through PlayStation Direct in the US, in limited numbers. Other stores won't have it new, so be careful of resellers.",
+        "retailer": "ps_direct",
+        "affiliate": false,
+        "url": "https://direct.playstation.com/en-us/",
+        "price": 84.99,
+        "price_label": "Sony MSRP",
+        "price_source": "PlayStation.Blog, 3 Sep 2026"
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "controllers",
+      "id": "DualSense Edge (PS5)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "DualSense Edge (PS5)",
+        "why": "Sony's pro pad, with back buttons and swappable stick modules.",
+        "retailer": "amazon_us",
+        "url": "https://www.amazon.com/s?k=DualSense+Edge",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "controllers",
+      "id": "Razer Wolverine V3 Pro (Xbox / PC)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "homepage or locale landing page",
+      "row": {
+        "name": "Razer Wolverine V3 Pro (Xbox / PC)",
+        "why": "Wireless Xbox pad with extra remappable buttons and trigger stops.",
+        "retailer": "razer",
+        "url": "https://www.razer.com/",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "controllers",
+      "id": "Xbox Wireless Controller",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Xbox Wireless Controller",
+        "why": "The standard pad, and the safe default if you just need a second controller.",
+        "retailer": "amazon_us",
+        "url": "https://www.amazon.com/s?k=Xbox+Wireless+Controller",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "headsets",
+      "id": "Sony PULSE Elite wireless headset",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Sony PULSE Elite wireless headset",
+        "why": "Sony's own headset, tuned for PS5 Tempest 3D Audio.",
+        "retailer": "amazon_us",
+        "url": "https://www.amazon.com/s?k=PULSE+Elite+wireless+headset",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "headsets",
+      "id": "Razer BlackShark V2 Pro (PlayStation or Xbox version)",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "homepage or locale landing page",
+      "row": {
+        "name": "Razer BlackShark V2 Pro (PlayStation or Xbox version)",
+        "why": "Light wireless headset. Buy the version that matches your console.",
+        "retailer": "razer",
+        "url": "https://www.razer.com/",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "headsets",
+      "id": "Xbox Wireless Headset",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "Amazon URL is not a /dp/ or /gp/product/ product page",
+      "row": {
+        "name": "Xbox Wireless Headset",
+        "why": "Connects straight to Series X|S without a dongle.",
+        "retailer": "amazon_us",
+        "url": "https://www.amazon.com/s?k=Xbox+Wireless+Headset",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "chairs",
+      "id": "Secretlab TITAN Evo",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "homepage or locale landing page",
+      "row": {
+        "name": "Secretlab TITAN Evo",
+        "why": "Comes in three sizes, with adjustable lumbar support. Choose the size from your height and weight.",
+        "retailer": "secretlab",
+        "url": "https://secretlab.co/",
+        "price": null
+      }
+    },
+    {
+      "source": "data/picks/us.json",
+      "section": "chairs",
+      "id": "Razer Iskur V2",
+      "removed": "2026-11-15T17:37:56Z",
+      "reason": "homepage or locale landing page",
+      "row": {
+        "name": "Razer Iskur V2",
+        "why": "Adjustable lumbar support, for people who sit for long sessions.",
+        "retailer": "razer",
+        "url": "https://www.razer.com/",
+        "price": null
+      }
+    }
+  ]
+}

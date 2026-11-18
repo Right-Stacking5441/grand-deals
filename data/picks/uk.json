@@ -1,0 +1,122 @@
+{
+  "_doc": "Real products only. A non-null price must have been seen on that product page, with price_source (the exact URL and method) and price_seen_at. Every item url must be a real product page for that exact item, not a search, category, hub or landing page. Re-add removed items from data/notes/removed-rows.json when a verified product URL exists.",
+  "country": "uk",
+  "sections": [
+    {
+      "id": "ps5-ssd",
+      "title": "PS5: M.2 NVMe SSD (plays the game)",
+      "items": [
+        {
+          "name": "Samsung 990 PRO with Heatsink (1 TB)",
+          "why": "PCIe Gen4 with a built-in heatsink. Samsung markets this version for PS5.",
+          "retailer": "currys_awin",
+          "url": "https://www.currys.co.uk/products/samsung-990-pro-m.2-internal-ssd-with-heatsink-1-tb-10254781.html",
+          "price": 219.99,
+          "price_label": "1 TB",
+          "last_checked": "2026-11-18T18:16:00Z",
+          "price_source": {
+            "url": "https://www.currys.co.uk/products/samsung-990-pro-m.2-internal-ssd-with-heatsink-1-tb-10254781.html",
+            "method": "box browser"
+          },
+          "price_seen_at": "2026-11-18T18:16:00Z",
+          "stock_note": "Currys product page at 18:16 GMT (box browser) showed \u00a3219.99 (was \u00a3267.09; save \u00a347.10), Add to basket, and 'Free next day delivery on this product in most areas'. Next-day delivery from \u00a35.99 (order by 9pm); free standard delivery on orders over \u00a340, or from \u00a33.99 (3-5 days). No visible low-stock wording."
+        }
+      ],
+      "page": "storage"
+    },
+    {
+      "id": "xbox-card",
+      "title": "Xbox Series X|S: Storage Expansion Card (plays the game)",
+      "items": [
+        {
+          "name": "Seagate Storage Expansion Card for Xbox Series X|S (1 TB)",
+          "why": "Made with Microsoft for the rear expansion port. Plays Series X|S games at the same speed as the internal SSD.",
+          "retailer": "argos",
+          "url": "https://www.argos.co.uk/product/9441031",
+          "price": 239.99,
+          "price_label": "1 TB",
+          "last_checked": "2026-11-18T18:16:00Z",
+          "price_source": {
+            "url": "https://www.argos.co.uk/product/9441031",
+            "method": "box browser"
+          },
+          "price_seen_at": "2026-11-18T18:16:00Z",
+          "stock_note": "Argos product page at 18:16 GMT (box browser) showed \u00a3239.99 and Add to trolley for Seagate Storage Expansion Card 1TB SSD NVMe Xbox Series X/S (product code 944/1031). The page said 'Check stock to see your delivery and collection options'. No postcode was entered, so delivery and collection were not confirmed. No visible low-stock wording."
+        }
+      ],
+      "page": "storage"
+    },
+    {
+      "id": "usb",
+      "title": "External USB drive (stores games, cannot play them)",
+      "items": [],
+      "page": "storage"
+    },
+    {
+      "id": "controllers",
+      "title": "Controllers",
+      "items": [
+        {
+          "name": "DualSense Wireless Controller \u2013 Grand Theft Auto VI White Limited Edition",
+          "why": "Sony's GTA 6 DualSense, with a colour-shifting finish. Out 19 November in limited numbers.",
+          "retailer": "game_partnerize",
+          "url": "https://www.game.co.uk/playstation-dualsense-wireless-controller--grand-theft-auto-vi-white-limited-edition-716731",
+          "price": null,
+          "last_checked": "2026-11-18T18:16:00Z",
+          "stock_note": "GAME product page at 18:16 GMT (box browser) returned 'Sorry \u2013 This Page Could Not Be Found' (404) for this URL. No price or purchase button was shown. Price not recorded."
+        },
+        {
+          "name": "Xbox Wireless Controller (Carbon Black)",
+          "why": "The official Xbox pad. Works on Series X|S, Xbox One, PC and phones.",
+          "retailer": "currys_awin",
+          "url": "https://www.currys.co.uk/products/xbox-wireless-controller-carbon-black-10211565.html",
+          "price": 54.99,
+          "last_checked": "2026-11-18T18:16:00Z",
+          "stock_note": "Currys product page at 18:16 GMT (box browser) showed \u00a354.99, Add to basket, and 'Free next day delivery on this product in most areas'. Next-day delivery from \u00a35.99 (order by 9pm); free standard delivery on orders over \u00a340, or from \u00a33.99 (3-5 days). No visible low-stock wording.",
+          "price_source": {
+            "url": "https://www.currys.co.uk/products/xbox-wireless-controller-carbon-black-10211565.html",
+            "method": "box browser"
+          },
+          "price_seen_at": "2026-11-18T18:16:00Z"
+        },
+        {
+          "name": "Razer Wolverine V3 Pro (Xbox / PC)",
+          "why": "A licensed Xbox/PC wireless controller with back buttons and Hall-effect sticks.",
+          "retailer": "razer",
+          "url": "https://www.razer.com/gb-en/console-controllers/razer-wolverine-v3-pro/RZ06-05200100-R3M1",
+          "price": 199.99,
+          "last_checked": "2026-11-18T18:17:00Z",
+          "stock_note": "Razer UK product page at 18:17 GMT (box browser) for the Black Wolverine V3 Pro showed \u00a3199.99 and ADD TO CART. Delivery was offered as 25 Nov - 27 Nov, free. The page also showed 'Next Business Day Shipping' and pickup stock at 1 RazerStore. No visible low-stock wording.",
+          "price_source": {
+            "url": "https://www.razer.com/gb-en/console-controllers/razer-wolverine-v3-pro/RZ06-05200100-R3M1",
+            "method": "box browser"
+          },
+          "price_seen_at": "2026-11-18T18:17:00Z"
+        }
+      ],
+      "page": "gear"
+    },
+    {
+      "id": "headsets",
+      "title": "Headsets",
+      "items": [
+        {
+          "name": "Xbox Wireless Headset",
+          "why": "Microsoft's official headset. Pairs directly with the console, no dongle.",
+          "retailer": "amazon_uk",
+          "url": "https://www.amazon.co.uk/dp/B08WJSJT4J",
+          "price": null,
+          "last_checked": "2026-11-18T18:17:00Z",
+          "stock_note": "Amazon UK /dp/ product page for the official Xbox Wireless Headset (TLL-00002, ASIN B08WJSJT4J) loaded at 18:17 GMT (box browser). The visible offer was a used unit (Used: Good, sold by Gamecentral) priced in euros, with Add to basket, 'Only 1 left in stock.', and free delivery Wednesday, 25 November on a first order to the UK or Ireland. No new-condition buy box was shown. Location was already set to Cambridge CB1. Price not recorded: Amazon prices are only listed when they come from the Product Advertising API."
+        }
+      ],
+      "page": "gear"
+    },
+    {
+      "id": "chairs",
+      "title": "Gaming chair",
+      "items": [],
+      "page": "gear"
+    }
+  ]
+}
