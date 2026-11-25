@@ -1,0 +1,198 @@
+{
+ "_doc": "Add a country by adding an entry here plus data/prices/<cc>.json, data/picks/<cc>.json and a block in data/affiliates.json. Set enabled:true and run build.py to generate its static pages. Until built, an enabled country still works at /c/?cc=<cc> from data alone.",
+ "default": "us",
+ "countries": [
+  {
+   "cc": "uk",
+   "name": "United Kingdom",
+   "short": "UK",
+   "flag": "GB",
+   "enabled": true,
+   "path": "/uk/",
+   "hreflang": "en-GB",
+   "locale": "en-GB",
+   "currency": "GBP",
+   "tz": "Europe/London",
+   "detect": {
+    "languages": [
+     "en-GB",
+     "cy",
+     "gd"
+    ],
+    "timezones": [
+     "Europe/London",
+     "Europe/Belfast"
+    ],
+    "tz_prefixes": []
+   },
+   "retailers": [
+    "game_partnerize",
+    "currys_awin",
+    "amazon_uk",
+    "argos"
+   ],
+   "disclosure": "uk",
+   "spelling": "uk",
+   "built": true
+  },
+  {
+   "cc": "us",
+   "name": "United States",
+   "short": "US",
+   "flag": "US",
+   "enabled": true,
+   "path": "/us/",
+   "hreflang": "en-US",
+   "locale": "en-US",
+   "currency": "USD",
+   "tz": "America/New_York",
+   "detect": {
+    "languages": [
+     "en-US",
+     "es-US"
+    ],
+    "timezones": [
+     "America/Boise",
+     "America/Puerto_Rico",
+     "America/Juneau",
+     "America/Sitka",
+     "America/Nome",
+     "America/Menominee",
+     "America/Adak",
+     "America/Metlakatla",
+     "America/Yakutat",
+     "America/Indianapolis",
+     "America/Louisville",
+     "US/Eastern",
+     "US/Central",
+     "US/Mountain",
+     "US/Pacific",
+     "US/Alaska",
+     "US/Hawaii"
+    ],
+    "tz_prefixes": [
+     "America/New_York",
+     "America/Chicago",
+     "America/Denver",
+     "America/Los_Angeles",
+     "America/Phoenix",
+     "America/Anchorage",
+     "America/Detroit",
+     "America/Indiana",
+     "America/Kentucky",
+     "Pacific/Honolulu",
+     "America/North_Dakota"
+    ]
+   },
+   "retailers": [
+    "amazon_us",
+    "bestbuy",
+    "walmart",
+    "target",
+    "gamestop"
+   ],
+   "disclosure": "us",
+   "spelling": "us",
+   "built": true
+  },
+  {
+   "cc": "ca",
+   "name": "Canada",
+   "short": "CA",
+   "flag": "CA",
+   "enabled": false,
+   "path": "/ca/",
+   "hreflang": "en-CA",
+   "locale": "en-CA",
+   "currency": "CAD",
+   "tz": "America/Toronto",
+   "detect": {
+    "languages": [
+     "en-CA",
+     "fr-CA"
+    ],
+    "timezones": [
+     "America/Toronto",
+     "America/Vancouver",
+     "America/Edmonton",
+     "America/Winnipeg",
+     "America/Halifax",
+     "America/St_Johns",
+     "America/Regina"
+    ],
+    "tz_prefixes": []
+   },
+   "retailers": [
+    "amazon_ca",
+    "bestbuy_ca",
+    "walmart_ca",
+    "eb_games_ca"
+   ],
+   "disclosure": "us",
+   "spelling": "us",
+   "built": false
+  },
+  {
+   "cc": "au",
+   "name": "Australia",
+   "short": "AU",
+   "flag": "AU",
+   "enabled": false,
+   "path": "/au/",
+   "hreflang": "en-AU",
+   "locale": "en-AU",
+   "currency": "AUD",
+   "tz": "Australia/Sydney",
+   "detect": {
+    "languages": [
+     "en-AU"
+    ],
+    "timezones": [],
+    "tz_prefixes": [
+     "Australia/"
+    ]
+   },
+   "retailers": [
+    "amazon_au",
+    "jb_hifi",
+    "eb_games_au",
+    "big_w"
+   ],
+   "disclosure": "uk",
+   "spelling": "uk",
+   "built": false
+  },
+  {
+   "cc": "de",
+   "name": "Deutschland",
+   "short": "DE",
+   "flag": "DE",
+   "enabled": false,
+   "path": "/de/",
+   "hreflang": "de-DE",
+   "locale": "de-DE",
+   "currency": "EUR",
+   "tz": "Europe/Berlin",
+   "detect": {
+    "languages": [
+     "de",
+     "de-DE"
+    ],
+    "timezones": [
+     "Europe/Berlin"
+    ],
+    "tz_prefixes": []
+   },
+   "retailers": [
+    "amazon_de",
+    "mediamarkt",
+    "saturn",
+    "otto"
+   ],
+   "disclosure": "uk",
+   "spelling": "uk",
+   "note": "Needs German copy and Impressum before enabling.",
+   "built": false
+  }
+ ]
+}

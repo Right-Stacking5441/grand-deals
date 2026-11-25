@@ -1,0 +1,55 @@
+{
+  "_doc": "Global settings. Change brand/domain here, then run: python3 build.py",
+  "brand": "grand.deals",
+  "brand_short": "gd",
+  "base_url": "https://grand.deals",
+  "preview": true,
+  "owner": "Hurrell Capital Limited",
+  "contact_email": "hello@grand.deals",
+  "_contact_email_doc": "Public contact address, shown on the privacy page.",
+  "game": {
+    "name": "Grand Theft Auto VI",
+    "short": "GTA 6",
+    "release_date": "2026-11-19",
+    "platforms": [
+      "PS5",
+      "Xbox Series X|S"
+    ],
+    "file_size_gb": 212,
+    "file_size_status": "official",
+    "file_size_note_uk": "PlayStation's UK support page says to have 212 GB free; Rockstar says the pre-load needs up to 212 GB depending on your console.",
+    "file_size_note_us": "PlayStation's support page says to have 212 GB free; Rockstar says the pre-load needs up to 212 GB depending on your console.",
+    "facts_checked": "2026-11-15"
+  },
+  "black_friday": "2026-11-27",
+  "alerts_end": "2026-11-30",
+  "stale_after_hours": 16,
+  "headroom_gb": 237,
+  "headroom_note": "Leave about 25 GB extra so day-one patches fit.",
+  "discord_url": null,
+  "email_provider": {
+    "name": null,
+    "endpoint": null,
+    "double_opt_in": true,
+    "_doc": "Provider undecided: buttondown / mailerlite / brevo. All submit adapters are UNTESTED and disabled for public builds until tested:true in data/providers.json. Preview stays inert unless CS_UNTESTED_ADAPTER=1 explicitly enables a local-only experiment with a valid endpoint. No real provider tests have been made. Set processor details from the DPA actually signed; TODO or missing values block public builds. See data/providers.json and research/provider-adapters.md.",
+    "processor": {
+      "legal_name": null,
+      "country": null,
+      "transfer_basis": null,
+      "dpa_url": null
+    }
+  },
+  "company": {
+    "legal_name": "Hurrell Capital Limited",
+    "number": "15158828",
+    "jurisdiction": "England and Wales",
+    "address": "65 London Road, Stapleford, Cambridge, CB22 5DG",
+    "_doc": "Shown in the privacy notice. A public build (preview:false) refuses to run while legal_name, number, address or contact_email are empty or placeholders."
+  },
+  "patch_margin_gb": 25,
+  "_brand_doc": "Rename = edit 'brand' (and 'base_url' for the domain) here, then run python3 build.py. Titles, wordmark, footer, legal pages, sitemap and OG images all read these.",
+  "privacy": {
+    "law_heading": "Lawful basis and your rights (UK)",
+    "law_html": "<p>We send deal alerts on the basis of your consent, under UK GDPR and PECR. You can withdraw consent at any time with the unsubscribe link in any email or by emailing us. You have the right to access your data, to correct it, to have it deleted, to restrict how we use it, to object to our use of it, and to receive it in a portable format (data portability, which applies because we rely on your consent). You can also complain to the Information Commissioner's Office (ico.org.uk).</p>"
+  }
+}

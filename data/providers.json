@@ -1,0 +1,74 @@
+{
+  "_doc": "Email-alert submit adapters. One file per provider in assets/providers/. 'tested' stays false until someone has run a real double opt-in signup end to end against a real account. A public build refuses to run with an untested adapter (set CS_UNTESTED_ADAPTER=1 only for local experiments; that build is stamped NOT FOR RELEASE). processor_suggestion is what each provider's public DPA said on 15 Nov 2026: copy it into data/site.json email_provider.processor only after checking it against the DPA you actually sign and the entity that contracts with a UK customer. tested:true is ignored (and a public build is blocked) unless 'evidence' is complete: date, tester, origin (the https site origin), cors:'ok', double_opt_in_confirmed:true, unsubscribe_confirmed:true, error_samples:[{case, provider_response, ui_message}]. processor transfer_basis uses keys: adequacy, uk_idta, uk_addendum, sccs, uk_us_data_bridge.",
+  "providers": {
+    "buttondown": {
+      "label": "Buttondown",
+      "file": "providers/buttondown.js",
+      "implemented": true,
+      "tested": false,
+      "mode": "form-post (new tab)",
+      "endpoint_pattern": "^https://buttondown\\.com/api/emails/embed-subscribe/[A-Za-z0-9_-]+$",
+      "docs": "https://docs.buttondown.com/building-your-subscriber-base",
+      "note": "Buttondown's docs say not to fetch() embed-subscribe (subscribers may need to complete a CAPTCHA). The adapter submits a normal form POST into a new tab and never claims success itself.",
+      "processor_suggestion": {
+        "legal_name": "Buttondown, LLC",
+        "country": "United States",
+        "transfer_basis": [
+          "uk_addendum"
+        ],
+        "dpa_url": "https://buttondown.com/legal/data-processing-agreement",
+        "transfer_basis_note": "Buttondown DPA s.8: EU SCCs Module 2 + UK Addendum"
+      },
+      "dpa_domains": [
+        "buttondown.com"
+      ],
+      "evidence": null
+    },
+    "mailerlite": {
+      "label": "MailerLite",
+      "file": "providers/mailerlite.js",
+      "implemented": true,
+      "tested": false,
+      "mode": "fetch (JSON)",
+      "endpoint_pattern": "^https://assets\\.mailerlite\\.com/jsonp/\\d+/forms/\\d+/subscribe$",
+      "docs": "https://www.mailerlite.com/help/how-to-create-an-embedded-form",
+      "note": "Posts fields[email] to the embedded form's action URL and only reports success on a 2xx JSON response with success:true. Double opt-in is a per-form setting in MailerLite.",
+      "processor_suggestion": {
+        "legal_name": "TODO: MailerLite Limited (EEA/UK/Swiss customers; use this for a UK company) or MailerLite, Inc. (other countries). Confirm against the DPA you actually sign",
+        "country": "TODO: EU (MailerLite Limited) or United States (MailerLite, Inc.)",
+        "transfer_basis": [
+          "uk_addendum"
+        ],
+        "dpa_url": "https://www.mailerlite.com/legal/data-processing-agreement",
+        "transfer_basis_note": "DPA s.13: SCCs + UK Addendum; MailerLite, Inc. also lists the EU-US DPF + UK Extension (would add uk_us_data_bridge). TODO: confirm contracting entity"
+      },
+      "dpa_domains": [
+        "mailerlite.com"
+      ],
+      "evidence": null
+    },
+    "brevo": {
+      "label": "Brevo",
+      "file": "providers/brevo.js",
+      "implemented": true,
+      "tested": false,
+      "mode": "fetch (JSON)",
+      "endpoint_pattern": "^https://[a-z0-9]+\\.sibforms\\.com/serve/[A-Za-z0-9_-]+$",
+      "docs": "https://help.brevo.com/hc/en-us/articles/208771869-Create-a-sign-up-form-in-Brevo",
+      "note": "Posts EMAIL (+ email_address_check honeypot, locale) to the sign-up form's serve URL and only reports success on a 2xx JSON response with success:true. Turn on 'Double confirmation email' in the form settings.",
+      "processor_suggestion": {
+        "legal_name": "Sendinblue SAS (trading as Brevo)",
+        "country": "France (hosting in France, Germany and Belgium)",
+        "transfer_basis": [
+          "sccs"
+        ],
+        "dpa_url": "https://corp-backend.brevo.com/wp-content/uploads/2025/06/20250624-BREVO-Annex-2-DPA-INC-1.pdf",
+        "transfer_basis_note": "EU hosting; SCCs for sub-processors outside the EEA. TODO: confirm UK wording (may need uk_addendum or adequacy)"
+      },
+      "dpa_domains": [
+        "brevo.com"
+      ],
+      "evidence": null
+    }
+  }
+}

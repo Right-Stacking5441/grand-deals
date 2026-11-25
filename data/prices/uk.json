@@ -1,0 +1,117 @@
+{
+  "_doc": "UK tracker rows. Update by hand (or a scheduled job that uses official affiliate product feeds/APIs, not page scraping). price=null means show 'Price TBC - check retailer'. stock: in_stock | low | out | preorder | unknown | not_listed. last_checked is ISO 8601 UTC. Never type a price you have not seen on the retailer's own page.",
+  "country": "uk",
+  "currency": "GBP",
+  "updated": "2026-11-25T08:21:00Z",
+  "reference": [
+    {
+      "label": "Standard Edition RRP",
+      "price": 69.99,
+      "source": "PlayStation Store / Microsoft Store via The Independent",
+      "checked": "2026-11-15"
+    },
+    {
+      "label": "Ultimate Edition (digital only)",
+      "price": 89.99,
+      "source": "The Independent; Currys pre-order page",
+      "checked": "2026-11-15"
+    }
+  ],
+  "rows": [
+    {
+      "id": "uk-game-ps5-std",
+      "retailer": "game_partnerize",
+      "product": "Grand Theft Auto VI",
+      "edition": "Standard",
+      "platform": "PS5",
+      "format": "Code in box (no disc)",
+      "kind": "game",
+      "price": 64.99,
+      "stock": "unknown",
+      "stock_note": "Product page at 08:21 GMT (box browser): Grand Theft Auto VI PS5, \u00a364.99 (\u00a369.99 struck through), Add to bag. A Frasers Plus Price of \u00a360.00 was also shown and was not used. The buy box showed no current dispatch, delivery or collection date. A Delivery & Collection footer link was opened and did not show item-level delivery options. No visible low-stock wording. A banner said 'THE WAIT IS OVER: Get GTA VI now while stocks last.' The product description still mentions online pre-orders shipping for delivery on 12 November; the game is playable from 19 November.",
+      "url": "https://www.game.co.uk/rockstar-games-grand-theft-auto-vi-ps5-756802",
+      "last_checked": "2026-11-25T08:21:00Z",
+      "price_source": {
+        "url": "https://www.game.co.uk/rockstar-games-grand-theft-auto-vi-ps5-756802",
+        "method": "box browser"
+      },
+      "price_seen_at": "2026-11-25T08:21:00Z"
+    },
+    {
+      "id": "uk-argos-ps5-std",
+      "retailer": "argos",
+      "product": "Grand Theft Auto VI",
+      "edition": "Standard",
+      "platform": "PS5",
+      "format": "Code in box (no disc)",
+      "kind": "game",
+      "price": 64.99,
+      "stock": "unknown",
+      "stock_note": "Product page at 08:19 GMT (box browser): Grand Theft Auto VI PS5 Game, \u00a364.99, Add to trolley. Stock still needs a postcode ('Check stock to see your delivery and collection options'). No postcode was entered. No visible low-stock wording. The header also said 'Same day collection available'.",
+      "url": "https://www.argos.co.uk/product/9636217",
+      "last_checked": "2026-11-25T08:19:00Z",
+      "price_source": {
+        "url": "https://www.argos.co.uk/product/9636217",
+        "method": "box browser"
+      },
+      "price_seen_at": "2026-11-25T08:19:00Z"
+    },
+    {
+      "id": "uk-argos-xbox-std",
+      "retailer": "argos",
+      "product": "Grand Theft Auto VI",
+      "edition": "Standard",
+      "platform": "Xbox Series X|S",
+      "format": "Code in box (no disc)",
+      "kind": "game",
+      "price": 64.99,
+      "stock": "unknown",
+      "url": "https://www.argos.co.uk/product/9933075",
+      "last_checked": "2026-11-25T08:20:00Z",
+      "stock_note": "Product page at 08:20 GMT (box browser): Grand Theft Auto VI Xbox Series X & S Game, \u00a364.99, Add to trolley. Stock still needs a postcode ('Check stock to see your delivery and collection options'). No postcode was entered. No visible low-stock wording. The header also said 'Same day collection available'.",
+      "price_source": {
+        "url": "https://www.argos.co.uk/product/9933075",
+        "method": "box browser"
+      },
+      "price_seen_at": "2026-11-25T08:20:00Z"
+    },
+    {
+      "id": "uk-currys-ps5-std",
+      "retailer": "currys_awin",
+      "product": "Grand Theft Auto VI",
+      "edition": "Standard",
+      "platform": "PS5",
+      "format": "Code in box (no disc)",
+      "kind": "game",
+      "price": 64.99,
+      "stock": "in_stock",
+      "stock_note": "Product page at 08:21 GMT (box browser): PLAYSTATION Grand Theft Auto VI - PS5, \u00a364.99, Add to basket. Next-day delivery from \u00a35.99 (order by 9pm); free standard delivery on orders over \u00a340, or from \u00a33.99 (3-5 days, Monday to Friday, excluding bank holidays); free store collection. No visible low-stock wording. The first loads showed a Cloudflare checking-your-connection page that cleared on a later load. An optional Razer controller add-on was also shown and was not used.",
+      "url": "https://www.currys.co.uk/products/playstation-grand-theft-auto-vi-ps5-10306407.html",
+      "last_checked": "2026-11-25T08:21:00Z",
+      "price_source": {
+        "url": "https://www.currys.co.uk/products/playstation-grand-theft-auto-vi-ps5-10306407.html",
+        "method": "box browser"
+      },
+      "price_seen_at": "2026-11-25T08:21:00Z"
+    },
+    {
+      "id": "uk-currys-xbox-std",
+      "retailer": "currys_awin",
+      "product": "Grand Theft Auto VI",
+      "edition": "Standard",
+      "platform": "Xbox Series X|S",
+      "format": "Code in box (no disc)",
+      "kind": "game",
+      "price": 64.99,
+      "stock": "in_stock",
+      "url": "https://www.currys.co.uk/products/xbox-grand-theft-auto-vi-xbox-series-xs-10306406.html",
+      "last_checked": "2026-11-25T08:20:00Z",
+      "stock_note": "Product page at 08:20 GMT (box browser): XBOX Grand Theft Auto VI - XBOX Series X|S, \u00a364.99, Add to basket. Next-day delivery from \u00a35.99 (order by 9pm); free standard delivery on orders over \u00a340, or from \u00a33.99 (3-5 days, Monday to Friday, excluding bank holidays); free store collection. No visible low-stock wording.",
+      "price_source": {
+        "url": "https://www.currys.co.uk/products/xbox-grand-theft-auto-vi-xbox-series-xs-10306406.html",
+        "method": "box browser"
+      },
+      "price_seen_at": "2026-11-25T08:20:00Z"
+    }
+  ]
+}
